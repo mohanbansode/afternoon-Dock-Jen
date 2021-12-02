@@ -1,0 +1,11 @@
+package com.example.mb2.controller;
+
+public class MainController {
+	@RequestMapping("/")
+	public String home()
+	{
+		
+		return "home";
+	}
+
+}
